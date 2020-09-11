@@ -17,6 +17,25 @@ Documentation
 You can build and install docset use `Docset` scheme in Xcode, `appledoc` need to be pre-installed. 
 Or your can read the [Documentation](http://github.ibireme.com/doc/YYCategories/index.html) online.
 
+## 仓库合并
+
+### 合并原仓库的 Pull requests
+
+
+
+### 合并提交到原仓库的 Pull requests
+
+（最后合并，#62 [更新UIApplication的memoryUsage方法和UIControl的setBlockForControlEvents方法 ](https://github.com/ibireme/YYCategories/pull/62)）
+
+一般不需要这么操作，由原仓库管理人员去检查代码逻辑，然后合并到原仓库。但由于 YYKit 仓库目前不再维护，提交的 Pull requests 也无法处理，所以要 Fork 后自己处理。
+
+1. 点击原仓库 Pull requests，然后点击某个提交进入详情，检查是否需要合并；
+2. 点击这个请求作者的仓库，即 from `someOne:master` 进入别人的 Fork 仓库；
+3. 点击 `Compare`进入比较代码，修改 `base repository`为自己的仓库，即想要把别人的Pull requests拉取到自己的Fork仓库。
+4. 检查无误后点击右侧 `Create pull request` 然后填写说明提交。
+5. 到自己仓库后，点击 `Merge pull request` 合并请求。
+
+
 
 Installation
 ==============
