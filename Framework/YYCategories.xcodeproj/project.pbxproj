@@ -33,8 +33,6 @@
 		D9D584BB1F055E6A00CBBB61 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D5847B1F055E6A00CBBB61 /* NSNumber+YYAdd.m */; };
 		D9D584BC1F055E6A00CBBB61 /* NSObject+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D5847C1F055E6A00CBBB61 /* NSObject+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9D584BD1F055E6A00CBBB61 /* NSObject+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D5847D1F055E6A00CBBB61 /* NSObject+YYAdd.m */; };
-		D9D584BE1F055E6A00CBBB61 /* NSObject+YYAddForARC.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D5847E1F055E6A00CBBB61 /* NSObject+YYAddForARC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9D584BF1F055E6A00CBBB61 /* NSObject+YYAddForARC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D5847F1F055E6A00CBBB61 /* NSObject+YYAddForARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D9D584C01F055E6A00CBBB61 /* NSObject+YYAddForKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D584801F055E6A00CBBB61 /* NSObject+YYAddForKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9D584C11F055E6A00CBBB61 /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D584811F055E6A00CBBB61 /* NSObject+YYAddForKVO.m */; };
 		D9D584C21F055E6A00CBBB61 /* NSString+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D584821F055E6A00CBBB61 /* NSString+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,8 +98,6 @@
 		D9D5847B1F055E6A00CBBB61 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		D9D5847C1F055E6A00CBBB61 /* NSObject+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAdd.h"; sourceTree = "<group>"; };
 		D9D5847D1F055E6A00CBBB61 /* NSObject+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAdd.m"; sourceTree = "<group>"; };
-		D9D5847E1F055E6A00CBBB61 /* NSObject+YYAddForARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAddForARC.h"; sourceTree = "<group>"; };
-		D9D5847F1F055E6A00CBBB61 /* NSObject+YYAddForARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAddForARC.m"; sourceTree = "<group>"; };
 		D9D584801F055E6A00CBBB61 /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
 		D9D584811F055E6A00CBBB61 /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
 		D9D584821F055E6A00CBBB61 /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
@@ -224,8 +220,6 @@
 				D9D5847B1F055E6A00CBBB61 /* NSNumber+YYAdd.m */,
 				D9D5847C1F055E6A00CBBB61 /* NSObject+YYAdd.h */,
 				D9D5847D1F055E6A00CBBB61 /* NSObject+YYAdd.m */,
-				D9D5847E1F055E6A00CBBB61 /* NSObject+YYAddForARC.h */,
-				D9D5847F1F055E6A00CBBB61 /* NSObject+YYAddForARC.m */,
 				D9D584801F055E6A00CBBB61 /* NSObject+YYAddForKVO.h */,
 				D9D584811F055E6A00CBBB61 /* NSObject+YYAddForKVO.m */,
 				D9D584821F055E6A00CBBB61 /* NSString+YYAdd.h */,
@@ -330,7 +324,6 @@
 				D9D584E41F055E6A00CBBB61 /* UITextField+YYAdd.h in Headers */,
 				D9D584C81F055E6A00CBBB61 /* CALayer+YYAdd.h in Headers */,
 				D9D584AE1F055E6A00CBBB61 /* NSBundle+YYAdd.h in Headers */,
-				D9D584BE1F055E6A00CBBB61 /* NSObject+YYAddForARC.h in Headers */,
 				D9D584BA1F055E6A00CBBB61 /* NSNumber+YYAdd.h in Headers */,
 				D9D584C01F055E6A00CBBB61 /* NSObject+YYAddForKVO.h in Headers */,
 				D9D584CA1F055E6A00CBBB61 /* YYCGUtilities.h in Headers */,
@@ -423,7 +416,6 @@
 				D9D584CB1F055E6A00CBBB61 /* YYCGUtilities.m in Sources */,
 				D9D584B51F055E6A00CBBB61 /* NSDictionary+YYAdd.m in Sources */,
 				D9D584D31F055E6A00CBBB61 /* UIColor+YYAdd.m in Sources */,
-				D9D584BF1F055E6A00CBBB61 /* NSObject+YYAddForARC.m in Sources */,
 				D9D584C71F055E6A00CBBB61 /* NSTimer+YYAdd.m in Sources */,
 				D9D584B71F055E6A00CBBB61 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				D9D584C31F055E6A00CBBB61 /* NSString+YYAdd.m in Sources */,
