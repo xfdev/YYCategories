@@ -14,13 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'YYCategories/**/*.{h,m}'
   s.public_header_files = 'YYCategories/**/*.{h}'
   
-  # non_arc_files = 'YYCategories/Foundation/NSObject+YYAddForARC.{h,m}', 'YYCategories/Foundation/NSThread+YYAdd.{h,m}'
-  # s.ios.exclude_files = non_arc_files
-  # s.subspec 'no-arc' do |sna|
-    # sna.requires_arc = false
-    # sna.source_files = non_arc_files
-  # end
-
   s.libraries = 'z'
   s.frameworks = 'UIKit', 'CoreFoundation' ,'QuartzCore', 'CoreGraphics', 'CoreImage', 'CoreText', 'ImageIO', 'Accelerate'
 
