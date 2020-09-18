@@ -79,6 +79,8 @@
 		E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015380025148D1A004CDB7F /* NSString+FRAdd.m */; };
 		E015382825149181004CDB7F /* UIButton+FRImageStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E015382625149180004CDB7F /* UIButton+FRImageStyle.m */; };
 		E015382925149181004CDB7F /* UIButton+FRImageStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382725149181004CDB7F /* UIButton+FRImageStyle.h */; };
+		E015382D2514931C004CDB7F /* NSNotificationCenter+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015382B2514931C004CDB7F /* NSNotificationCenter+FRAdd.m */; };
+		E015382E2514931C004CDB7F /* NSNotificationCenter+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +158,8 @@
 		E015380025148D1A004CDB7F /* NSString+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FRAdd.m"; sourceTree = "<group>"; };
 		E015382625149180004CDB7F /* UIButton+FRImageStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FRImageStyle.m"; sourceTree = "<group>"; };
 		E015382725149181004CDB7F /* UIButton+FRImageStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FRImageStyle.h"; sourceTree = "<group>"; };
+		E015382B2514931C004CDB7F /* NSNotificationCenter+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+FRAdd.m"; sourceTree = "<group>"; };
+		E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FRAdd.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 				D9D584771F055E6A00CBBB61 /* NSKeyedUnarchiver+YYAdd.m */,
 				D9D584781F055E6A00CBBB61 /* NSNotificationCenter+YYAdd.h */,
 				D9D584791F055E6A00CBBB61 /* NSNotificationCenter+YYAdd.m */,
+				E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */,
+				E015382B2514931C004CDB7F /* NSNotificationCenter+FRAdd.m */,
 				D9D5847A1F055E6A00CBBB61 /* NSNumber+YYAdd.h */,
 				D9D5847B1F055E6A00CBBB61 /* NSNumber+YYAdd.m */,
 				D9D5847C1F055E6A00CBBB61 /* NSObject+YYAdd.h */,
@@ -318,6 +324,7 @@
 				E01537FD251459CD004CDB7F /* NSDictionary+SafeExpectations.h in Headers */,
 				D9D584D81F055E6A00CBBB61 /* UIFont+YYAdd.h in Headers */,
 				D9D584C61F055E6A00CBBB61 /* NSTimer+YYAdd.h in Headers */,
+				E015382E2514931C004CDB7F /* NSNotificationCenter+FRAdd.h in Headers */,
 				D9D584E01F055E6A00CBBB61 /* UIScrollView+YYAdd.h in Headers */,
 				D9D584B41F055E6A00CBBB61 /* NSDictionary+YYAdd.h in Headers */,
 				D9D584CC1F055E6A00CBBB61 /* UIApplication+YYAdd.h in Headers */,
@@ -428,6 +435,7 @@
 				D9D584E71F055E6A00CBBB61 /* UIView+YYAdd.m in Sources */,
 				D9D584D71F055E6A00CBBB61 /* UIDevice+YYAdd.m in Sources */,
 				D9D584D51F055E6A00CBBB61 /* UIControl+YYAdd.m in Sources */,
+				E015382D2514931C004CDB7F /* NSNotificationCenter+FRAdd.m in Sources */,
 				D9D584CB1F055E6A00CBBB61 /* YYCGUtilities.m in Sources */,
 				D9D584B51F055E6A00CBBB61 /* NSDictionary+YYAdd.m in Sources */,
 				D9D584D31F055E6A00CBBB61 /* UIColor+YYAdd.m in Sources */,

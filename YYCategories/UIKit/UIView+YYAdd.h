@@ -100,17 +100,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (CGRect)convertRect:(CGRect)rect fromViewOrWindow:(nullable UIView *)view;
 
-// 和 Masonry 冲突，因此注销
-//@property (nonatomic) CGFloat left;        ///< Shortcut for frame.origin.x.
-//@property (nonatomic) CGFloat top;         ///< Shortcut for frame.origin.y
-//@property (nonatomic) CGFloat right;       ///< Shortcut for frame.origin.x + frame.size.width
-//@property (nonatomic) CGFloat bottom;      ///< Shortcut for frame.origin.y + frame.size.height
-//@property (nonatomic) CGFloat width;       ///< Shortcut for frame.size.width.
-//@property (nonatomic) CGFloat height;      ///< Shortcut for frame.size.height.
-//@property (nonatomic) CGFloat centerX;     ///< Shortcut for center.x
-//@property (nonatomic) CGFloat centerY;     ///< Shortcut for center.y
-//@property (nonatomic) CGPoint origin;      ///< Shortcut for frame.origin.
-//@property (nonatomic) CGSize  size;        ///< Shortcut for frame.size.
+/**
+ View直接设置宽width,高height,位置,x,y
+ */
+@property (nonatomic, assign) CGFloat frTop;
+@property (nonatomic, assign) CGFloat frLeft;
+@property (nonatomic, assign) CGFloat frRight;
+@property (nonatomic, assign) CGFloat frBottom;
+@property (nonatomic, assign) CGFloat frWidth;
+@property (nonatomic, assign) CGFloat frHeight;
+
+@property (nonatomic, assign) CGFloat frCenterX;
+@property (nonatomic, assign) CGFloat frCenterY;
+
+@property (nonatomic, assign) CGPoint frOrigin;
+@property (nonatomic, assign) CGSize frSize;
 
 @end
 
