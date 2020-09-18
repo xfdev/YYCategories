@@ -77,6 +77,8 @@
 		E01537FD251459CD004CDB7F /* NSDictionary+SafeExpectations.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */; };
 		E015380125148D1A004CDB7F /* NSString+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */; };
 		E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015380025148D1A004CDB7F /* NSString+FRAdd.m */; };
+		E015382825149181004CDB7F /* UIButton+FRImageStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E015382625149180004CDB7F /* UIButton+FRImageStyle.m */; };
+		E015382925149181004CDB7F /* UIButton+FRImageStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382725149181004CDB7F /* UIButton+FRImageStyle.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,6 +154,8 @@
 		E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeExpectations.h"; sourceTree = "<group>"; };
 		E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FRAdd.h"; sourceTree = "<group>"; };
 		E015380025148D1A004CDB7F /* NSString+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FRAdd.m"; sourceTree = "<group>"; };
+		E015382625149180004CDB7F /* UIButton+FRImageStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FRImageStyle.m"; sourceTree = "<group>"; };
+		E015382725149181004CDB7F /* UIButton+FRImageStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FRImageStyle.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +284,8 @@
 				D9D584A71F055E6A00CBBB61 /* UITextField+YYAdd.m */,
 				D9D584A81F055E6A00CBBB61 /* UIView+YYAdd.h */,
 				D9D584A91F055E6A00CBBB61 /* UIView+YYAdd.m */,
+				E015382725149181004CDB7F /* UIButton+FRImageStyle.h */,
+				E015382625149180004CDB7F /* UIButton+FRImageStyle.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 				D9D584E21F055E6A00CBBB61 /* UITableView+YYAdd.h in Headers */,
 				D9D584E91F055E6A00CBBB61 /* YYCategoriesMacro.h in Headers */,
 				D9D584E41F055E6A00CBBB61 /* UITextField+YYAdd.h in Headers */,
+				E015382925149181004CDB7F /* UIButton+FRImageStyle.h in Headers */,
 				D9D584C81F055E6A00CBBB61 /* CALayer+YYAdd.h in Headers */,
 				D9D584AE1F055E6A00CBBB61 /* NSBundle+YYAdd.h in Headers */,
 				D9D584BA1F055E6A00CBBB61 /* NSNumber+YYAdd.h in Headers */,
@@ -436,6 +443,7 @@
 				D9D584B31F055E6A00CBBB61 /* NSDate+YYAdd.m in Sources */,
 				D9D584D11F055E6A00CBBB61 /* UIBezierPath+YYAdd.m in Sources */,
 				D9D584BD1F055E6A00CBBB61 /* NSObject+YYAdd.m in Sources */,
+				E015382825149181004CDB7F /* UIButton+FRImageStyle.m in Sources */,
 				D9D584CD1F055E6A00CBBB61 /* UIApplication+YYAdd.m in Sources */,
 				D9D584B11F055E6A00CBBB61 /* NSData+YYAdd.m in Sources */,
 				E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */,
