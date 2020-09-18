@@ -75,6 +75,8 @@
 		D9D584E91F055E6A00CBBB61 /* YYCategoriesMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D584AB1F055E6A00CBBB61 /* YYCategoriesMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E01537FC251459CD004CDB7F /* NSDictionary+SafeExpectations.m in Sources */ = {isa = PBXBuildFile; fileRef = E01537FA251459CD004CDB7F /* NSDictionary+SafeExpectations.m */; };
 		E01537FD251459CD004CDB7F /* NSDictionary+SafeExpectations.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */; };
+		E015380125148D1A004CDB7F /* NSString+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */; };
+		E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015380025148D1A004CDB7F /* NSString+FRAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +150,8 @@
 		D9D584F21F055ED700CBBB61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E01537FA251459CD004CDB7F /* NSDictionary+SafeExpectations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeExpectations.m"; sourceTree = "<group>"; };
 		E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeExpectations.h"; sourceTree = "<group>"; };
+		E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FRAdd.h"; sourceTree = "<group>"; };
+		E015380025148D1A004CDB7F /* NSString+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FRAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +230,8 @@
 				D9D584811F055E6A00CBBB61 /* NSObject+YYAddForKVO.m */,
 				D9D584821F055E6A00CBBB61 /* NSString+YYAdd.h */,
 				D9D584831F055E6A00CBBB61 /* NSString+YYAdd.m */,
+				E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */,
+				E015380025148D1A004CDB7F /* NSString+FRAdd.m */,
 				D9D584861F055E6A00CBBB61 /* NSTimer+YYAdd.h */,
 				D9D584871F055E6A00CBBB61 /* NSTimer+YYAdd.m */,
 			);
@@ -311,6 +317,7 @@
 				D9D584CC1F055E6A00CBBB61 /* UIApplication+YYAdd.h in Headers */,
 				D9D584B21F055E6A00CBBB61 /* NSDate+YYAdd.h in Headers */,
 				D9D584D41F055E6A00CBBB61 /* UIControl+YYAdd.h in Headers */,
+				E015380125148D1A004CDB7F /* NSString+FRAdd.h in Headers */,
 				D9D584BC1F055E6A00CBBB61 /* NSObject+YYAdd.h in Headers */,
 				D9D584DC1F055E6A00CBBB61 /* UIImage+YYAdd.h in Headers */,
 				D9D584D61F055E6A00CBBB61 /* UIDevice+YYAdd.h in Headers */,
@@ -431,6 +438,7 @@
 				D9D584BD1F055E6A00CBBB61 /* NSObject+YYAdd.m in Sources */,
 				D9D584CD1F055E6A00CBBB61 /* UIApplication+YYAdd.m in Sources */,
 				D9D584B11F055E6A00CBBB61 /* NSData+YYAdd.m in Sources */,
+				E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
