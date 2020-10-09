@@ -1,22 +1,3 @@
-YYCategories
-==============
-
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYCategories/master/LICENSE)&nbsp;
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/v/YYCategories.svg?style=flat)](http://cocoapods.org/pods/YYCategories)&nbsp;
-[![CocoaPods](http://img.shields.io/cocoapods/p/YYCategories.svg?style=flat)](http://cocoadocs.org/docsets/YYCategories)&nbsp;
-[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
-[![Build Status](https://travis-ci.org/ibireme/YYCategories.svg?branch=master)](https://travis-ci.org/ibireme/YYCategories)
-
-A set of useful categories for Foundation and UIKit.<br/>
-(It's a component of [YYKit](https://github.com/ibireme/YYKit))
-
-Documentation
-==============
-
-You can build and install docset use `Docset` scheme in Xcode, `appledoc` need to be pre-installed. 
-Or your can read the [Documentation](http://github.ibireme.com/doc/YYCategories/index.html) online.
-
 ## 仓库合并
 
 ### 合并原仓库的 Pull requests
@@ -35,6 +16,33 @@ Or your can read the [Documentation](http://github.ibireme.com/doc/YYCategories/
 4. 检查无误后点击右侧 `Create pull request` 然后填写说明提交。
 5. 到自己仓库后，点击 `Merge pull request` 合并请求。
 
+
+## 版本更新
+修改仓库代码后，适当的时候要更新版本，并提交到 pod 仓库中以供项目中更新使用。
+1. 修改 `.podspec` 文件中版本号；
+2. 终端终端定位到项目，输入命令 `pod lib lint` 验证；（出现 `YYCategories passed validation.` 验证通过）
+3. 提交到Spec Repo，命令 `pod repo push FRPrivateRepo YYCategories.podspec --verbose --allow-warnings` 显示好多警告，最后提交成功，查看仓库中有新的版本号；
+
+==============
+
+YYCategories
+==============
+
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ibireme/YYCategories/master/LICENSE)&nbsp;
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/YYCategories.svg?style=flat)](http://cocoapods.org/pods/YYCategories)&nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/YYCategories.svg?style=flat)](http://cocoadocs.org/docsets/YYCategories)&nbsp;
+[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
+[![Build Status](https://travis-ci.org/ibireme/YYCategories.svg?branch=master)](https://travis-ci.org/ibireme/YYCategories)
+
+A set of useful categories for Foundation and UIKit.<br/>
+(It's a component of [YYKit](https://github.com/ibireme/YYKit))
+
+Documentation
+==============
+
+You can build and install docset use `Docset` scheme in Xcode, `appledoc` need to be pre-installed. 
+Or your can read the [Documentation](http://github.ibireme.com/doc/YYCategories/index.html) online.
 
 
 Installation
