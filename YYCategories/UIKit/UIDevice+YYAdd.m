@@ -293,6 +293,12 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"iPhone11,8" : @"iPhone XR",
             @"iPhone11,2" : @"iPhone XS",
             @"iPhone11,6" : @"iPhone XS Max",
+            @"iPhone11,4" : @"iPhone XS Max",
+            
+            @"iPhone12,1" : @"iPhone 11",   // FR: 2020.10.09 开始新增。@"iPhonexx" : @"iPhoneName",
+            @"iPhone12,3" : @"iPhone 11 Pro",
+            @"iPhone12,5" : @"iPhone 11 Pro Max",
+            @"iPhone12,8" : @"iPhone SE (2nd generation)",  // FR: 2020.10.09 结束。
             
             @"iPad1,1" : @"iPad 1",
             @"iPad2,1" : @"iPad 2 (WiFi)",
