@@ -37,7 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return A new NSTimer object, configured according to the specified parameters.
  */
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(NSTimer *timer))block repeats:(BOOL)repeats;
+// 注销该方法，iOS 10.0 以上系统支持block调用
+//+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(NSTimer *timer))block repeats:(BOOL)repeats;
 
 /**
  Creates and returns a new NSTimer object initialized with the specified block.
@@ -59,7 +60,8 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return A new NSTimer object, configured according to the specified parameters.
  */
-+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(NSTimer *timer))block repeats:(BOOL)repeats;
+// 注销该方法，iOS 10.0 以上系统支持block调用
+//+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)seconds block:(void (^)(NSTimer *timer))block repeats:(BOOL)repeats;
 
 @end
 
