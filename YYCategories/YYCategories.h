@@ -19,11 +19,13 @@ FOUNDATION_EXPORT const unsigned char YYCategoriesVersionString[];
 #import <YYCategories/NSObject+YYAddForKVO.h>
 #import <YYCategories/NSData+YYAdd.h>
 #import <YYCategories/NSString+YYAdd.h>
+#import <YYCategories/NSString+FRAdd.h>
 #import <YYCategories/NSArray+YYAdd.h>
 #import <YYCategories/NSDictionary+YYAdd.h>
 #import <YYCategories/NSDate+YYAdd.h>
 #import <YYCategories/NSNumber+YYAdd.h>
 #import <YYCategories/NSNotificationCenter+YYAdd.h>
+#import <YYCategories/NSNotificationCenter+FRAdd.h>
 #import <YYCategories/NSKeyedUnarchiver+YYAdd.h>
 #import <YYCategories/NSTimer+YYAdd.h>
 #import <YYCategories/NSBundle+YYAdd.h>
@@ -49,11 +51,13 @@ FOUNDATION_EXPORT const unsigned char YYCategoriesVersionString[];
 #import "NSObject+YYAddForKVO.h"
 #import "NSData+YYAdd.h"
 #import "NSString+YYAdd.h"
+#import "NSString+FRAdd.h"
 #import "NSArray+YYAdd.h"
 #import "NSDictionary+YYAdd.h"
 #import "NSDate+YYAdd.h"
 #import "NSNumber+YYAdd.h"
 #import "NSNotificationCenter+YYAdd.h"
+#import "NSNotificationCenter+FRAdd.h"
 #import "NSKeyedUnarchiver+YYAdd.h"
 #import "NSTimer+YYAdd.h"
 #import "NSBundle+YYAdd.h"
