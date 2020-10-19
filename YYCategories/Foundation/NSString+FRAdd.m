@@ -112,6 +112,9 @@
 
 
 - (UIImage *)image {
+    if (!self) {
+        return nil;
+    }
     return [UIImage imageNamed:self];
 }
 - (UIImage *)imageAlwaysOriginal {
@@ -122,6 +125,9 @@
 }
 
 - (NSURL *)url {
+    if (!self) {
+        return nil;
+    }
     return [NSURL URLWithString:self];
 }
 
