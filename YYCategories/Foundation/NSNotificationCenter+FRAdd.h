@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Object registering as an observer...
  */
-+ (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(id)anObject;
++ (void)addObserver:(id)observer selector:(SEL)aSelector name:(NSString *)aName object:(nullable id)anObject;
 
 /// 其他参数为 nil
 + (void)postNotificationName:(NSNotificationName)aName;
@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  The object posting the notification...
  */
-+ (void)postNotificationName:(NSString *)aName object:(id)anObject userInfo:(NSDictionary *)aUserInfo;
++ (void)postNotificationName:(NSString *)aName object:(id)anObject userInfo:(nullable NSDictionary *)aUserInfo;
 
 + (void)removeObserver:(id)observer;
 
