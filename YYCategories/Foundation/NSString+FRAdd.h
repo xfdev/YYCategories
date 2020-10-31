@@ -13,7 +13,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface NSString (FRAdd)
 
 // 格式校验
+#warning 使用 NSDataDetector 来优化
 - (BOOL)isEmail;
+- (BOOL)isURL;
 - (BOOL)isPhoneNumber;
 - (BOOL)isIP;
 - (BOOL)isSecondGenerationIDCard;// 第二代身份证校验

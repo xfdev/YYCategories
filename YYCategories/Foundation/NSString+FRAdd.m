@@ -17,6 +17,15 @@
     
     return emailResult;
 }
+
+/// https://urlregex.com/
+- (BOOL)isURL {
+    NSString *stringReg = @"^(http|https)://((\\w)*|([0-9]*)|([-|_])*)+([\\.|/]((\\w)*|([0-9]*)|([-|_])*))+$";
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", stringReg];
+    BOOL result = [predicate evaluateWithObject:self];
+    
+    return result;
+}
 - (BOOL)isPhoneNumber {
     //    电信号段: 133,149,153,170,173,177,180,181,189,199
     //    联通号段: 130,131,132,145,155,156,166,170,171,175,176,185,186
