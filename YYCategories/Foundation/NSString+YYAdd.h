@@ -363,7 +363,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @discussion Apple has implemented this method in iOS8.
  */
-- (BOOL)containsString:(NSString *)string;
+//- (BOOL)containsString:(NSString *)string;
 
 /**
  Returns YES if the target CharacterSet is contained within the receiver.

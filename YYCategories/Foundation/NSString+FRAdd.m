@@ -121,7 +121,7 @@
 
 
 - (UIImage *)image {
-    if (!self) {
+    if (!self || ![self isKindOfClass:NSString.class] || !self.length) {
         return nil;
     }
     return [UIImage imageNamed:self];
@@ -134,7 +134,7 @@
 }
 
 - (NSURL *)url {
-    if (!self) {
+    if (!self || ![self isKindOfClass:NSString.class] || !self.length) {
         return nil;
     }
     return [NSURL URLWithString:self];

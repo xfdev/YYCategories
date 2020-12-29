@@ -91,7 +91,7 @@ YYSYNTH_DUMMY_CLASS(UIApplication_YYAdd)
 }
 
 - (NSString *)appBundleName {
-    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
+    return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];//CFBundleName
 }
 
 - (NSString *)appBundleID {
