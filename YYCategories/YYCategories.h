@@ -34,9 +34,9 @@ FOUNDATION_EXPORT const unsigned char YYCategoriesVersionString[];
 #import <YYCategories/UIImage+YYAdd.h>
 #import <YYCategories/UIControl+YYAdd.h>
 #import <YYCategories/UIBarButtonItem+YYAdd.h>
+#import <YYCategories/UIButton+FRAdd.h>
 #import <YYCategories/UIGestureRecognizer+YYAdd.h>
 #import <YYCategories/UIView+YYAdd.h>
-#import <YYCategories/UIButton+FRImageStyle.h>
 #import <YYCategories/UIScrollView+YYAdd.h>
 #import <YYCategories/UITableView+YYAdd.h>
 #import <YYCategories/UITextField+YYAdd.h>
@@ -68,9 +68,9 @@ FOUNDATION_EXPORT const unsigned char YYCategoriesVersionString[];
 #import "UIImage+YYAdd.h"
 #import "UIControl+YYAdd.h"
 #import "UIBarButtonItem+YYAdd.h"
+#import "UIButton+FRAdd.h"
 #import "UIGestureRecognizer+YYAdd.h"
 #import "UIView+YYAdd.h"
-#import "UIButton+FRImageStyle.h"
 #import "UIScrollView+YYAdd.h"
 #import "UITableView+YYAdd.h"
 #import "UITextField+YYAdd.h"

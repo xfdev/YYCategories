@@ -77,10 +77,10 @@
 		E01537FD251459CD004CDB7F /* NSDictionary+SafeExpectations.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */; };
 		E015380125148D1A004CDB7F /* NSString+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */; };
 		E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015380025148D1A004CDB7F /* NSString+FRAdd.m */; };
-		E015382825149181004CDB7F /* UIButton+FRImageStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E015382625149180004CDB7F /* UIButton+FRImageStyle.m */; };
-		E015382925149181004CDB7F /* UIButton+FRImageStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382725149181004CDB7F /* UIButton+FRImageStyle.h */; };
 		E015382D2514931C004CDB7F /* NSNotificationCenter+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E015382B2514931C004CDB7F /* NSNotificationCenter+FRAdd.m */; };
 		E015382E2514931C004CDB7F /* NSNotificationCenter+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */; };
+		E036803E25A830F3002C6ACF /* UIButton+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E036803C25A830F3002C6ACF /* UIButton+FRAdd.h */; };
+		E036803F25A830F3002C6ACF /* UIButton+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E036803D25A830F3002C6ACF /* UIButton+FRAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,10 +156,10 @@
 		E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeExpectations.h"; sourceTree = "<group>"; };
 		E01537FF25148D1A004CDB7F /* NSString+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FRAdd.h"; sourceTree = "<group>"; };
 		E015380025148D1A004CDB7F /* NSString+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FRAdd.m"; sourceTree = "<group>"; };
-		E015382625149180004CDB7F /* UIButton+FRImageStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FRImageStyle.m"; sourceTree = "<group>"; };
-		E015382725149181004CDB7F /* UIButton+FRImageStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FRImageStyle.h"; sourceTree = "<group>"; };
 		E015382B2514931C004CDB7F /* NSNotificationCenter+FRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+FRAdd.m"; sourceTree = "<group>"; };
 		E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FRAdd.h"; sourceTree = "<group>"; };
+		E036803C25A830F3002C6ACF /* UIButton+FRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FRAdd.h"; sourceTree = "<group>"; };
+		E036803D25A830F3002C6ACF /* UIButton+FRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FRAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +268,8 @@
 				D9D584911F055E6A00CBBB61 /* UIBarButtonItem+YYAdd.m */,
 				D9D584921F055E6A00CBBB61 /* UIBezierPath+YYAdd.h */,
 				D9D584931F055E6A00CBBB61 /* UIBezierPath+YYAdd.m */,
+				E036803C25A830F3002C6ACF /* UIButton+FRAdd.h */,
+				E036803D25A830F3002C6ACF /* UIButton+FRAdd.m */,
 				D9D584941F055E6A00CBBB61 /* UIColor+YYAdd.h */,
 				D9D584951F055E6A00CBBB61 /* UIColor+YYAdd.m */,
 				D9D584961F055E6A00CBBB61 /* UIControl+YYAdd.h */,
@@ -290,8 +292,6 @@
 				D9D584A71F055E6A00CBBB61 /* UITextField+YYAdd.m */,
 				D9D584A81F055E6A00CBBB61 /* UIView+YYAdd.h */,
 				D9D584A91F055E6A00CBBB61 /* UIView+YYAdd.m */,
-				E015382725149181004CDB7F /* UIButton+FRImageStyle.h */,
-				E015382625149180004CDB7F /* UIButton+FRImageStyle.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -320,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D584D21F055E6A00CBBB61 /* UIColor+YYAdd.h in Headers */,
+				E036803E25A830F3002C6ACF /* UIButton+FRAdd.h in Headers */,
 				D9D584AC1F055E6A00CBBB61 /* NSArray+YYAdd.h in Headers */,
 				E01537FD251459CD004CDB7F /* NSDictionary+SafeExpectations.h in Headers */,
 				D9D584D81F055E6A00CBBB61 /* UIFont+YYAdd.h in Headers */,
@@ -343,7 +344,6 @@
 				D9D584E21F055E6A00CBBB61 /* UITableView+YYAdd.h in Headers */,
 				D9D584E91F055E6A00CBBB61 /* YYCategoriesMacro.h in Headers */,
 				D9D584E41F055E6A00CBBB61 /* UITextField+YYAdd.h in Headers */,
-				E015382925149181004CDB7F /* UIButton+FRImageStyle.h in Headers */,
 				D9D584C81F055E6A00CBBB61 /* CALayer+YYAdd.h in Headers */,
 				D9D584AE1F055E6A00CBBB61 /* NSBundle+YYAdd.h in Headers */,
 				D9D584BA1F055E6A00CBBB61 /* NSNumber+YYAdd.h in Headers */,
@@ -425,6 +425,7 @@
 			files = (
 				D9D584CF1F055E6A00CBBB61 /* UIBarButtonItem+YYAdd.m in Sources */,
 				D9D584D91F055E6A00CBBB61 /* UIFont+YYAdd.m in Sources */,
+				E036803F25A830F3002C6ACF /* UIButton+FRAdd.m in Sources */,
 				D9D584E11F055E6A00CBBB61 /* UIScrollView+YYAdd.m in Sources */,
 				D9D584AF1F055E6A00CBBB61 /* NSBundle+YYAdd.m in Sources */,
 				D9D584DF1F055E6A00CBBB61 /* UIScreen+YYAdd.m in Sources */,
@@ -451,7 +452,6 @@
 				D9D584B31F055E6A00CBBB61 /* NSDate+YYAdd.m in Sources */,
 				D9D584D11F055E6A00CBBB61 /* UIBezierPath+YYAdd.m in Sources */,
 				D9D584BD1F055E6A00CBBB61 /* NSObject+YYAdd.m in Sources */,
-				E015382825149181004CDB7F /* UIButton+FRImageStyle.m in Sources */,
 				D9D584CD1F055E6A00CBBB61 /* UIApplication+YYAdd.m in Sources */,
 				D9D584B11F055E6A00CBBB61 /* NSData+YYAdd.m in Sources */,
 				E015380225148D1A004CDB7F /* NSString+FRAdd.m in Sources */,
@@ -508,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -558,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -578,6 +578,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCategories;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -597,6 +598,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCategories;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
