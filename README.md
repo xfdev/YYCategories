@@ -6,7 +6,7 @@
 
 ### 合并提交到原仓库的 Pull requests
 
-（最后合并，#62 [更新UIApplication的memoryUsage方法和UIControl的setBlockForControlEvents方法 ](https://github.com/ibireme/YYCategories/pull/62)）
+（最后合并，#67 [Updates](https://github.com/ibireme/YYCategories/pull/67)) 2021-02-03，手动合并）
 
 一般不需要这么操作，由原仓库管理人员去检查代码逻辑，然后合并到原仓库。但由于 YYKit 仓库目前不再维护，提交的 Pull requests 也无法处理，所以要 Fork 后自己处理。
 
