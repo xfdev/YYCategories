@@ -89,6 +89,11 @@ YYSYNTH_DUMMY_CLASS(NSDate_YYAdd)
     return [added isToday];
 }
 
+- (BOOL)isTomorrow {
+    NSDate *added = [self dateByAddingDays:-1];
+    return [added isToday];
+}
+
 - (NSDate *)dateByAddingYears:(NSInteger)years {
     NSCalendar *calendar =  [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];

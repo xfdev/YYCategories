@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) BOOL isLeapYear; ///< Weather the year is leap year
 @property (nonatomic, readonly) BOOL isToday; ///< Weather date is today (based on current locale)
 @property (nonatomic, readonly) BOOL isYesterday; ///< Weather date is yesterday (based on current locale)
+@property (nonatomic, readonly) BOOL isTomorrow; ///< 明天
 
 #pragma mark - Date modify
 ///=============================================================================

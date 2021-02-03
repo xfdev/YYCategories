@@ -253,6 +253,18 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"Watch2,4" : @"Apple Watch Series 2 42mm",
             @"Watch2,6" : @"Apple Watch Series 1 38mm",
             @"Watch2,7" : @"Apple Watch Series 1 42mm",
+            @"Watch3,1" : @"Apple Watch Series 3 38mm",// from https://github.com/ibireme/YYCategories/pull/65/files
+            @"Watch3,2" : @"Apple Watch Series 3 42mm",
+            @"Watch3,3" : @"Apple Watch Series 3 38mm",
+            @"Watch3,4" : @"Apple Watch Series 3 42mm",
+            @"Watch4,1" : @"Apple Watch Series 4 40mm",
+            @"Watch4,2" : @"Apple Watch Series 4 44mm",
+            @"Watch4,3" : @"Apple Watch Series 4 40mm",
+            @"Watch4,4" : @"Apple Watch Series 4 44mm",
+            @"Watch5,1" : @"Apple Watch Series 5 40mm",
+            @"Watch5,2" : @"Apple Watch Series 5 44mm",
+            @"Watch5,3" : @"Apple Watch Series 5 40mm",
+            @"Watch5,4" : @"Apple Watch Series 5 44mm",
             
             @"iPod1,1" : @"iPod touch 1",
             @"iPod2,1" : @"iPod touch 2",
@@ -260,6 +272,7 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"iPod4,1" : @"iPod touch 4",
             @"iPod5,1" : @"iPod touch 5",
             @"iPod7,1" : @"iPod touch 6",
+            @"iPod9,1" : @"7th Gen iPod",// from https://github.com/ibireme/YYCategories/pull/65/files
             
             @"iPhone1,1" : @"iPhone 1G",
             @"iPhone1,2" : @"iPhone 3G",
@@ -278,12 +291,11 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"iPhone7,2" : @"iPhone 6",
             @"iPhone8,1" : @"iPhone 6s",
             @"iPhone8,2" : @"iPhone 6s Plus",
-            @"iPhone8,4" : @"iPhone SE",
+            @"iPhone8,4" : @"iPhone SE (1st generation)",
             @"iPhone9,1" : @"iPhone 7",
             @"iPhone9,2" : @"iPhone 7 Plus",
             @"iPhone9,3" : @"iPhone 7",
             @"iPhone9,4" : @"iPhone 7 Plus",
-            
             @"iPhone10,1" : @"iPhone 8",
             @"iPhone10,4" : @"iPhone 8",
             @"iPhone10,2" : @"iPhone 8 Plus",
@@ -294,11 +306,14 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"iPhone11,2" : @"iPhone XS",
             @"iPhone11,6" : @"iPhone XS Max",
             @"iPhone11,4" : @"iPhone XS Max",
-            
             @"iPhone12,1" : @"iPhone 11",   // FR: 2020.10.09 开始新增。@"iPhonexx" : @"iPhoneName",
             @"iPhone12,3" : @"iPhone 11 Pro",
             @"iPhone12,5" : @"iPhone 11 Pro Max",
             @"iPhone12,8" : @"iPhone SE (2nd generation)",  // FR: 2020.10.09 结束。
+            @"iPhone13,1" : @"iPhone 12 Mini",  // from https://github.com/ibireme/YYCategories/pull/65/files
+            @"iPhone13,2" : @"iPhone 12",
+            @"iPhone13,3" : @"iPhone 12 Pro",
+            @"iPhone13,4" : @"iPhone 12 Pro Max",
             
             @"iPad1,1" : @"iPad 1",
             @"iPad2,1" : @"iPad 2 (WiFi)",
@@ -341,10 +356,35 @@ static yy_net_interface_counter yy_get_net_interface_counter() {
             @"iPad7,5" : @"iPad (6th generation)",
             @"iPad7,6" : @"iPad (6th generation)",
             
+            // from https://github.com/ibireme/YYCategories/pull/65/files
+            @"iPad7,11" : @"iPad 7th Gen 10.2-inch (WiFi)",
+            @"iPad7,12" : @"iPad 7th Gen 10.2-inch (WiFi+Cellular)",
+            @"iPad8,1" : @"iPad Pro 11 inch 3rd Gen (WiFi)",
+            @"iPad8,2" : @"iPad Pro 11 inch 3rd Gen (1TB, WiFi)",
+            @"iPad8,3" : @"iPad Pro 11 inch 3rd Gen (WiFi+Cellular)",
+            @"iPad8,4" : @"iPad Pro 11 inch 3rd Gen (1TB, WiFi+Cellular)",
+            @"iPad8,5" : @"iPad Pro 12.9 inch 3rd Gen (WiFi)",
+            @"iPad8,6" : @"iPad Pro 12.9 inch 3rd Gen (1TB, WiFi)",
+            @"iPad8,7" : @"iPad Pro 12.9 inch 3rd Gen (WiFi+Cellular)",
+            @"iPad8,8" : @"iPad Pro 12.9 inch 3rd Gen (1TB, WiFi+Cellular)",
+            @"iPad8,9" : @"iPad Pro 11 inch 4th Gen (WiFi)",
+            @"iPad8,10" : @"iPad Pro 11 inch 4th Gen (WiFi+Cellular)",
+            @"iPad8,11" : @"iPad Pro 12.9 inch 4th Gen (WiFi)",
+            @"iPad8,12" : @"iPad Pro 12.9 inch 4th Gen (WiFi+Cellular)",
+            @"iPad11,1" : @"iPad mini 5th Gen (WiFi)",
+            @"iPad11,2" : @"iPad mini 5th Gen",
+            @"iPad11,3" : @"iPad Air 3rd Gen (WiFi)",
+            @"iPad11,4" : @"iPad Air 3rd Gen",
+            @"iPad11,6" : @"iPad 8th Gen (WiFi)",
+            @"iPad11,7" : @"iPad 8th Gen (WiFi+Cellular)",
+            @"iPad13,1" : @"iPad air 4th Gen (WiFi)",
+            @"iPad13,2" : @"iPad air 4th Gen (WiFi+Celular)",
+            
             @"AppleTV2,1" : @"Apple TV 2",
             @"AppleTV3,1" : @"Apple TV 3",
             @"AppleTV3,2" : @"Apple TV 3",
             @"AppleTV5,3" : @"Apple TV 4",
+            @"AppleTV6,2" : @"Apple TV 4K",// from https://github.com/xfdev/YYCategories/compare/master...YYKits:master
             
             @"i386" : @"Simulator x86",
             @"x86_64" : @"Simulator x64",
