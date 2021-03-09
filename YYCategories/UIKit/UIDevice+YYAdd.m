@@ -44,12 +44,20 @@ YYSYNTH_DUMMY_CLASS(UIDevice_YYAdd)
 }
 
 - (BOOL)isSimulator {
-    static dispatch_once_t one;
-    static BOOL simu;
-    dispatch_once(&one, ^{
-        simu = NSNotFound != [[self model] rangeOfString:@"Simulator"].location;
-    });
-    return simu;
+    BOOL simulator = YES;
+#if TARGET_IPHONE_SIMULATOR // 模拟器
+    simulator = NO;
+#else
+    // 真机
+#endif
+    return simulator;
+    
+//    static dispatch_once_t one;
+//    static BOOL simu;
+//    dispatch_once(&one, ^{
+//        simu = NSNotFound != [[self model] rangeOfString:@"Simulator"].location;
+//    });
+//    return simu;
 }
 
 - (BOOL)isJailbroken {
