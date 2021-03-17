@@ -44,9 +44,9 @@ YYSYNTH_DUMMY_CLASS(UIDevice_YYAdd)
 }
 
 - (BOOL)isSimulator {
-    BOOL simulator = YES;
+    BOOL simulator = NO;
 #if TARGET_IPHONE_SIMULATOR // 模拟器
-    simulator = NO;
+    simulator = YES;
 #else
     // 真机
 #endif
