@@ -81,6 +81,8 @@
 		E015382E2514931C004CDB7F /* NSNotificationCenter+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */; };
 		E036803E25A830F3002C6ACF /* UIButton+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E036803C25A830F3002C6ACF /* UIButton+FRAdd.h */; };
 		E036803F25A830F3002C6ACF /* UIButton+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E036803D25A830F3002C6ACF /* UIButton+FRAdd.m */; };
+		E05549E42610519E003169E3 /* NSDate+FRAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E05549E22610519E003169E3 /* NSDate+FRAdd.h */; };
+		E05549E52610519E003169E3 /* NSDate+FRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E05549E32610519E003169E3 /* NSDate+FRAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +162,8 @@
 		E015382C2514931C004CDB7F /* NSNotificationCenter+FRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+FRAdd.h"; sourceTree = "<group>"; };
 		E036803C25A830F3002C6ACF /* UIButton+FRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+FRAdd.h"; sourceTree = "<group>"; };
 		E036803D25A830F3002C6ACF /* UIButton+FRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FRAdd.m"; sourceTree = "<group>"; };
+		E05549E22610519E003169E3 /* NSDate+FRAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+FRAdd.h"; sourceTree = "<group>"; };
+		E05549E32610519E003169E3 /* NSDate+FRAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FRAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,8 @@
 				D9D584711F055E6A00CBBB61 /* NSData+YYAdd.m */,
 				D9D584721F055E6A00CBBB61 /* NSDate+YYAdd.h */,
 				D9D584731F055E6A00CBBB61 /* NSDate+YYAdd.m */,
+				E05549E22610519E003169E3 /* NSDate+FRAdd.h */,
+				E05549E32610519E003169E3 /* NSDate+FRAdd.m */,
 				D9D584741F055E6A00CBBB61 /* NSDictionary+YYAdd.h */,
 				D9D584751F055E6A00CBBB61 /* NSDictionary+YYAdd.m */,
 				E01537FB251459CD004CDB7F /* NSDictionary+SafeExpectations.h */,
@@ -348,6 +354,7 @@
 				D9D584AE1F055E6A00CBBB61 /* NSBundle+YYAdd.h in Headers */,
 				D9D584BA1F055E6A00CBBB61 /* NSNumber+YYAdd.h in Headers */,
 				D9D584C01F055E6A00CBBB61 /* NSObject+YYAddForKVO.h in Headers */,
+				E05549E42610519E003169E3 /* NSDate+FRAdd.h in Headers */,
 				D9D584CA1F055E6A00CBBB61 /* YYCGUtilities.h in Headers */,
 				D9D584DA1F055E6A00CBBB61 /* UIGestureRecognizer+YYAdd.h in Headers */,
 				D9D584DE1F055E6A00CBBB61 /* UIScreen+YYAdd.h in Headers */,
@@ -429,6 +436,7 @@
 				E036803F25A830F3002C6ACF /* UIButton+FRAdd.m in Sources */,
 				D9D584E11F055E6A00CBBB61 /* UIScrollView+YYAdd.m in Sources */,
 				D9D584AF1F055E6A00CBBB61 /* NSBundle+YYAdd.m in Sources */,
+				E05549E52610519E003169E3 /* NSDate+FRAdd.m in Sources */,
 				D9D584DF1F055E6A00CBBB61 /* UIScreen+YYAdd.m in Sources */,
 				E01537FC251459CD004CDB7F /* NSDictionary+SafeExpectations.m in Sources */,
 				D9D584C11F055E6A00CBBB61 /* NSObject+YYAddForKVO.m in Sources */,
