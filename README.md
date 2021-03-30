@@ -23,6 +23,10 @@
 2. 终端终端定位到项目，输入命令 `pod lib lint` 验证；（出现 `YYCategories passed validation.` 验证通过）
 3. 提交到Spec Repo，命令 `pod repo push FRPrivateRepo YYCategories.podspec --verbose --allow-warnings` 显示好多警告，最后提交成功，查看仓库中有新的版本号(命令 -- 之后的可不写，避免显示太多的警告)；
 
+## 个人 pods 仓库
+
+ [FRPrivateRepo](https://github.com/xfdev/FRPrivateRepo) 
+
 ==============
 
 YYCategories
